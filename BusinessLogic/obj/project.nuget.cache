@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "K94UC2L6V12m17lw1K+7dvJLJSZqp/RY1xdEHUU4T6q59bYc56ZAwQb46wvDUUHzHTdZG1Cv5jj0liRdFHpwjA==",
+  "success": true,
+  "projectFilePath": "D:\\learning\\dotnet\\WebApplication1\\BusinessLogic\\BusinessLogic.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vgupta\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\vgupta\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,12 @@
+D:\learning\dotnet\WebApplication1\BusinessLogic\obj\Debug\netstandard2.0\BusinessLogic.csprojAssemblyReference.cache
+D:\learning\dotnet\WebApplication1\BusinessLogic\obj\Debug\netstandard2.0\BusinessLogic.AssemblyInfoInputs.cache
+D:\learning\dotnet\WebApplication1\BusinessLogic\obj\Debug\netstandard2.0\BusinessLogic.AssemblyInfo.cs
+D:\learning\dotnet\WebApplication1\BusinessLogic\obj\Debug\netstandard2.0\BusinessLogic.csproj.CoreCompileInputs.cache
+D:\learning\dotnet\WebApplication1\BusinessLogic\bin\Debug\netstandard2.0\BusinessLogic.deps.json
+D:\learning\dotnet\WebApplication1\BusinessLogic\bin\Debug\netstandard2.0\BusinessLogic.dll
+D:\learning\dotnet\WebApplication1\BusinessLogic\bin\Debug\netstandard2.0\BusinessLogic.pdb
+D:\learning\dotnet\WebApplication1\BusinessLogic\bin\Debug\netstandard2.0\Model.dll
+D:\learning\dotnet\WebApplication1\BusinessLogic\bin\Debug\netstandard2.0\Model.pdb
+D:\learning\dotnet\WebApplication1\BusinessLogic\obj\Debug\netstandard2.0\BusinessLogic.csproj.CopyComplete
+D:\learning\dotnet\WebApplication1\BusinessLogic\obj\Debug\netstandard2.0\BusinessLogic.dll
+D:\learning\dotnet\WebApplication1\BusinessLogic\obj\Debug\netstandard2.0\BusinessLogic.pdb

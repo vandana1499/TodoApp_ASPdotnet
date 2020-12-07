@@ -9,11 +9,13 @@ using BusinessLogic;
 
 namespace WebApplication1.Controllers
 {
+    
     [ApiController]
     [Route("[controller]")]
+
     public class TaskController : Controller
     {
-
+       
         private TaskOperation taskOpObj;
         public TaskController()
         {
@@ -26,15 +28,33 @@ namespace WebApplication1.Controllers
         {
             return "Welcome to Todo Application";
         }
-
         [HttpGet]
-        [Route("getAll")]
-        public string getTask()
+        [Route("getAllTask")]
+        public List<Tasks> getAllTask()
         {
-            return "Hello";
-            //return id.Value.ToString();
+
+            return taskOpObj.showAllTask();
         }
 
-      
+        [HttpGet]
+        [Route("getTask/{id?}")]
+        public List<String> getTask(int? id)
+        {
+            
+           return taskOpObj.ShowTaskByID(id);
+        }
+
+        [HttpPost]
+        [Route("postTask")]
+        public string postTask([FromBody] String tasks)
+        {
+            
+            taskOpObj.AddTask(tasks);
+            return "Successfully created the task";
+        }
+
+        //put delete yet to be added
+
+
     }
 }
