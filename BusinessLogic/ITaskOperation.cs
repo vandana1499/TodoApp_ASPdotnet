@@ -4,9 +4,9 @@ using System.Text;
 using Model;
 namespace BusinessLogic
 {
-    interface ITaskOperation
+    public interface ITaskOperation
     {
-        void AddTask(string task);
+        void AddTask(List<string> tl, string name,string email,string FavouriteThingYouLike);
         List<string> ShowTaskByID(int? id);
 
         List<Tasks> showAllTask();

@@ -16,10 +16,11 @@ namespace WebApplication1.Controllers
     public class TaskController : Controller
     {
        
-        private TaskOperation taskOpObj;
-        public TaskController()
+        private ITaskOperation taskOpObj;
+        public TaskController(ITaskOperation itskop)
         {
-            taskOpObj = new TaskOperation();
+            //taskOpObj = new TaskOperation();
+            taskOpObj = itskop;
         }
        
 
@@ -46,10 +47,10 @@ namespace WebApplication1.Controllers
 
         [HttpPost]
         [Route("postTask")]
-        public string postTask([FromBody] String tasks)
+        public string postTask([FromBody] Tasks obj)
         {
             
-            taskOpObj.AddTask(tasks);
+            taskOpObj.AddTask(obj.TaskList,obj.Name,obj.Email,obj.FavouriteThingYouLike);
             return "Successfully created the task";
         }
 

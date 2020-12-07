@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "cst/1xSCuTTcmCMJoD1omTceV2aKmFzPsbU2PiKUHcL9aMMGPed+VcIwXss34mnPGi6RpMCEe2B82UNapGjrMA==",
+  "dgSpecHash": "B6Ax3CoNQuGDiCBWGiE9uGtG7QZQ38a3/jvbK3GdTW6ZD/44yzNzyuPFI+V/ZNNlTS7HEZUSChzgG8qQVzOf7w==",
   "success": true,
   "projectFilePath": "D:\\learning\\dotnet\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\vgupta\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

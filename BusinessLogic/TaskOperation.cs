@@ -24,13 +24,18 @@ namespace BusinessLogic
         {
             return AllTasks;
         }
-        public void AddTask(string task)
+        public void AddTask(List<string> tl,string name,string email,string FavouriteThingYouLike)
         {
 
             Tasks obj = new Tasks();
             obj.id = Tasks.counter++;
-            
-            obj.TaskList.Add(task);
+            obj.Name = name;
+            obj.Email = email;
+            obj.FavouriteThingYouLike = FavouriteThingYouLike;
+            for (int i=0;i<tl.Count;i++)
+            {
+                obj.TaskList.Add(tl[i]);
+            }
             AllTasks.Add(obj);
 
 

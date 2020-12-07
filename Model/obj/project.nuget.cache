@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Vb/8mABFpu6r8v0BiQtrPWLfCvPcfE8bwm3s3dq0veCWyyOTbSR7/LJmROBkwzkLybs9vckrJR44Y1UUjf4FAA==",
+  "dgSpecHash": "1TGvspa0+et4yzrVwqf58ld6IPIzPcQBNz542rbY4bx0XeuVa68wbf0ui1ESiDS7/I5R+cf556kwCmqyp//lgQ==",
   "success": true,
   "projectFilePath": "D:\\learning\\dotnet\\WebApplication1\\Model\\Model.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vgupta\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\vgupta\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\vgupta\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\vgupta\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }
